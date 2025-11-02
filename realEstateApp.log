@@ -1,0 +1,46 @@
+Nov 02, 2025 8:34:24 PM RealEstateAgent main
+INFO: Application started.
+Nov 02, 2025 8:34:24 PM RealEstateAgent loadFromFile
+INFO: Loading properties from file: realestates.txt
+Nov 02, 2025 8:34:24 PM RealEstateAgent loadFromFile
+SEVERE: Error reading file, loading sample data
+java.io.FileNotFoundException: realestates.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at RealEstateAgent.loadFromFile(RealEstateAgent.java:262)
+	at RealEstateAgent.main(RealEstateAgent.java:349)
+
+Nov 02, 2025 8:34:24 PM RealEstateAgent loadSampleData
+INFO: Loading sample data.
+Nov 02, 2025 8:34:24 PM RealEstateAgent generateReport
+INFO: Generating report: outputRealEstate.txt
+Nov 02, 2025 8:34:24 PM RealEstateAgent generateReport
+INFO: Report successfully written to outputRealEstate.txt
+Nov 02, 2025 8:34:24 PM RealEstateAgent main
+INFO: Application finished.
+Nov 02, 2025 8:42:35 PM RealEstateAgent main
+INFO: Application started.
+Nov 02, 2025 8:42:35 PM RealEstateAgent loadFromFile
+INFO: Loading properties from file: realestates.txt
+Nov 02, 2025 8:42:35 PM RealEstateAgent loadFromFile
+SEVERE: Error reading file, loading sample data
+java.io.FileNotFoundException: realestates.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at RealEstateAgent.loadFromFile(RealEstateAgent.java:315)
+	at RealEstateAgent.main(RealEstateAgent.java:408)
+
+Nov 02, 2025 8:42:35 PM RealEstateAgent loadSampleData
+INFO: Loading sample data.
+Nov 02, 2025 8:42:35 PM RealEstateAgent generateReport
+INFO: Generating report: outputRealEstate.txt
+Nov 02, 2025 8:42:35 PM RealEstateAgent generateReport
+INFO: Report successfully written to outputRealEstate.txt
+Nov 02, 2025 8:42:35 PM RealEstateAgent main
+INFO: Application finished.
